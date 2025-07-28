@@ -58,7 +58,7 @@ Please recreate the timetable section of MyTimetable.
 
 The timetable section of the [MyTimetable](https://mytimetable.csclub.org.au/) website is provided above.
 
-**Note**: The timetable section might seem overwhelming at first, but don’t worry! Start by building the basic table structure, then add event cards, and finally include the relevant details for each event.
+**Note**: The timetable section might seem overwhelming at first, but don’t worry! Start by building the basic table structure, then add event cards, and finally include the relevant details for each event. You are **not required** to implement interactive functionality for the buttons or dropdown menus. The calendar does **not** need to support drag-and-drop or any advanced interactions. Just focus on replicating the visual layout.
 
 The sample data shown in the image is provided both in the `data.json` file and below in the [Appendix](#appendix) in `JSON` format.🚀
 
