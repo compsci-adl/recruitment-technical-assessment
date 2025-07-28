@@ -1,0 +1,82 @@
+[
+    {
+      "course_code": "COMP SCI 1102",
+      "subject_name": "Object Oriented Programming",
+      "class_type": "Lecture",
+      "location": "Scott Theatre, 001, Scott Theatre",
+      "day": "Wednesday",
+      "time": "10:00-11:00"
+    },
+    {
+      "course_code": "COMP SCI 1102",
+      "subject_name": "Object Oriented Programming",
+      "class_type": "Lecture",
+      "location": "Scott Theatre, 001, Scott Theatre",
+      "day": "Friday",
+      "time": "12:00-13:00"
+    },
+    {
+      "course_code": "COMP SCI 1102",
+      "subject_name": "Object Oriented Programming",
+      "class_type": "Workshop",
+      "location": "Ingkarni Wardli, 218, CAT Suite",
+      "day": "Tuesday",
+      "time": "14:00-15:00"
+    },
+    {
+      "course_code": "COMP SCI 1102",
+      "subject_name": "Object Oriented Programming",
+      "class_type": "Practical",
+      "location": "Ingkarni Wardli, G22, CAT Suite",
+      "day": "Friday",
+      "time": "14:00-15:00"
+    },
+    {
+      "course_code": "MATHS 1012",
+      "subject_name": "Mathematics IB",
+      "class_type": "Seminar",
+      "location": "Scott Theatre, 001, Scott Theatre",
+      "day": "Thursday",
+      "time": "12:00-13:00"
+    },
+    {
+      "course_code": "MATHS 1012",
+      "subject_name": "Mathematics IB",
+      "class_type": "Workshop",
+      "location": "Engineering & Mathematics, EM218, Teaching Room",
+      "day": "Wednesday",
+      "time": "11:00-12:00"
+    },
+    {
+      "course_code": "PROJMGNT 1001",
+      "subject_name": "Foundations of Project Management",
+      "class_type": "Lecture",
+      "location": "Scott Theatre, 001, Scott Theatre",
+      "day": "Thursday",
+      "time": "9:00-11:00"
+    },
+    {
+      "course_code": "PROJMGNT 1001",
+      "subject_name": "Foundations of Project Management",
+      "class_type": "Tutorial",
+      "location": "Nexus1O, UB35, Teaching Room",
+      "day": "Monday",
+      "time": "12:00-13:00"
+    },
+    {
+      "course_code": "COMP SCI 1106",
+      "subject_name": "Introduction to Software Engineering",
+      "class_type": "Lecture",
+      "location": "Scott Theatre, 001, Scott Theatre",
+      "day": "Tuesday",
+      "time": "12:00-13:00"
+    },
+    {
+      "course_code": "COMP SCI 1106",
+      "subject_name": "Introduction to Software Engineering",
+      "class_type": "Lecture",
+      "location": "Scott Theatre, 001, Scott Theatre",
+      "day": "Friday",
+      "time": "13:00-14:00"
+    }
+]
