@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "test": "echo \"Error: No test specified\" && exit 1",
+    "start": "ts-node tasks.ts"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0 ",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.3"
+  }
+}

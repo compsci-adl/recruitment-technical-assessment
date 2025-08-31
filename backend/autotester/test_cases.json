@@ -1,0 +1,49 @@
+{
+  "slugToTitle": [
+    { "input": "meet-and-greet-s1-2025", "expected": "Meet And Greet S1 2025" },
+    { "input": "uni-hackathon", "expected": "Uni Hackathon" },
+    { "input": "cocktail-night-2024", "expected": "Cocktail Night 2024" }
+  ],
+  "projectEntry": [
+    {
+      "input": {
+        "type": "resource",
+        "name": "GoRuntime",
+        "buildTime": 5
+      },
+      "expectedStatus": 200
+    },
+    {
+      "input": {
+        "type": "project",
+        "name": "AuthService",
+        "requiredResources": [
+          { "name": "GoRuntime", "quantity": 1 }
+        ]
+      },
+      "expectedStatus": 200
+    },
+    {
+      "input": {
+        "type": "project",
+        "name": "DuplicateName",
+        "requiredResources": []
+      },
+      "expectedStatus": 200
+    }
+  ],
+  "summary": [
+    {
+      "query": "AuthService",
+      "expectedStatus": 200
+    },
+    {
+      "query": "UnknownProject",
+      "expectedStatus": 400
+    },
+    {
+      "query": "GoRuntime",
+      "expectedStatus": 400
+    }
+  ]
+}
