@@ -1,4 +1,4 @@
-> This task is relevant for **voxel engine**
+> This task is relevant for the **voxel engine**
 
 
 # CS Club Open Source Team Recruitment Technical Assessment: Graphics
@@ -14,13 +14,28 @@ Note that this repository contains ALL questions for our technical screening and
 
 ## Building and running
 
-### Linux, Mac OS, MSYS (Windows)
+### Install 
+
+run the update command to get all the libraries
+Run from the home directory
+```sh
+git submodule update --init
+```
+
+
+Go to graphics folder
+
+```sh
+cd graphics
+```
+
+### Build Linux, Mac OS, MSYS (Windows)
 
 ```sh
 ./build.sh
 ```
 
-### Windows - Visual Studio
+### Build Windows - Visual Studio
 
 ```bat
 .\build.bat
