@@ -4,3 +4,16 @@
 **/.venv
 venv/
 .DS_Store
+
+
+# graphics 
+graphics/build/
+graphics/**/.DS_Store
+graphics/.cache/
+graphics/.vscode/
+
+# imgui
+graphics/imgui.ini
+
+# trace
+graphics/*.trace
