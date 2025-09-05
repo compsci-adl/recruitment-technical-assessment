@@ -2,17 +2,10 @@
 
 
 # CS Club Open Source Team Recruitment Technical Assessment: Graphics
-
-
 > **YOU DON'T NEED TO COMPLETE ALL PARTS.** 
+> Complete the parts that you think **best** reflect your skills (you can do them in any order).
 
-To complete this assessment, you will need to fork and clone this repo, implement and push your solutions to GitHub, and send a link of your fork to our Open Source & Infrastructure Manager Phoenix (pbird99) on Discord.
-
-Note that this repository contains ALL questions for our technical screening and you are NOT required to attempt all questions!
-
-
-
-## Building and running
+## Building and Running
 
 ### Install 
 
@@ -21,7 +14,6 @@ Run from the home directory
 ```sh
 git submodule update --init
 ```
-
 
 Go to graphics folder
 
@@ -43,19 +35,18 @@ cd graphics
 
 ### Install
 
-Refer to install.md for any debug steps for installing libraries
+Refer to [**INSTALL.md**](./graphics/INSTALL.md) for any debug steps for installing libraries
 
+## What you are Provided
 
-## What you are provided
+You are given the basic engine and some template code.
 
-You are given the basic engine and some template code for generating a single triangle.
-
-<img src="image.png" alt="Engine" width="600"/>
+<img src="assets/code.png" alt="Engine Code" width="600"/>
 
 <br>
-Create using the following verticies in main.cpp
+Using the following vertices in main.cpp generates a single triangle.
 
-<img src="image-1.png" alt="Engine" width="600"/>
+<img src="assets/triangle.png" alt="Simple Triangle" width="600"/>
 
 
 ## Task 1: Create a Cube
@@ -63,12 +54,10 @@ Replace the current triangle with a 3D cube.
 
 **Hints**:
 - A cube has 8 vertices and 12 triangles (2 per face)
-- You'll need to modify the `verticies` and `indicies` vectors in `main.cpp`
+- You'll need to modify the `vertices` and `indices` vectors in `main.cpp`
 - Remember the vertex format: `x, y, z, r, g, b, brightness`
 - Consider which vertices connect to form each face
 - Think about triangle winding order (clockwise vs counter-clockwise)
-
-
 
 ## Task 2: Simple Collision Detection
 Implement basic collision detection to prevent the camera from moving through objects.
@@ -79,8 +68,6 @@ Implement basic collision detection to prevent the camera from moving through ob
 - Consider using simple bounding boxes or sphere collision
 - You might want to store object positions and sizes in a data structure
 - Think about how to "push back" the camera when it hits something
-
-
 
 ## Task 3: Basic Game - Maze or Platformer
 Create a simple game using your collision system. This doesn't need to be too complicated, its more to teach you how to work with the rendering and collision logic to actually create something.
@@ -97,9 +84,7 @@ Create a simple game using your collision system. This doesn't need to be too co
 - You might want to create a level data structure to define object positions
 - Think about game state management (win/lose conditions)
 
-
 ## Additional Challenges
-
 Once you complete the main tasks, try these advanced features:
 - Multiple objects with different properties
 - Animation and movement of objects
@@ -108,12 +93,12 @@ Once you complete the main tasks, try these advanced features:
 - Particle effects
 
 ## File Structure
-
 - `src/main.cpp` - Main application and game loop
 - `src/camera.h` - Camera class definition
 - `src/render.h` - Rendering system
 - `src/header.h` - Common includes and definitions
 - `src/shaders/` - Vertex and fragment shaders
-- `lib/` - External libraries (STB image, etc.)
-- `makefile` - Build configuration for multiple platforms
+- `libs/` - External libraries (glfw, etc.)
+- `build.sh` - Build script for macOS and Linux
+- `build.bat` - Build script for Windows
 
