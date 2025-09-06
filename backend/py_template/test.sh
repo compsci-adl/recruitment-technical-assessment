@@ -38,6 +38,6 @@ SERVER_PID=$!
 # Give the server a moment to start
 sleep 1
 
-# Run generic test runner
-echo "Running generic tests for Python..."
-python ../autotester/test.py py
+# Run autotester
+echo "Running autotester..."
+pytest ../autotester/test.py

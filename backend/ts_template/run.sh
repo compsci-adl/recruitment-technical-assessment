@@ -2,3 +2,5 @@
 
 npm i 
 npm start
+
+exec $SHELL

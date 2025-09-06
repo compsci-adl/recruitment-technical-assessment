@@ -12,13 +12,14 @@ with open("../autotester/test_cases.json") as f:
 def wait_for_server():
     for _ in range(10):
         try:
-            res = requests.get(BASE_URL)
+            res = requests.get(BASE_URL + "/slugToTitle")
             if res.status_code == 200:
                 return True
         except requests.exceptions.ConnectionError:
             time.sleep(1)
     pytest.exit("Server didn't start in time.")
 
+# Ensure server is up before running tests
 @pytest.fixture(scope="session", autouse=True)
 def setup():
     wait_for_server()
