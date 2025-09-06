@@ -22,7 +22,7 @@ These tasks are relevant to the following projects:
 * **MyVote**
 
 ### DuckBot
-If you want to work on **DuckBot**, you should complete the [bot](./bot/README.md) tasks.
+If you want to work on **DuckBot**, you should complete the [backend](./backend/README.md) tasks in Python.
 
 ### Voxel Game Engine
 If you want to work on the **Voxel Game Engine**, you should complete the [graphics](./graphics/README.md) tasks.
