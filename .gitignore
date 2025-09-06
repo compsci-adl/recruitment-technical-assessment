@@ -4,5 +4,19 @@
 **/.venv
 venv/
 .DS_Store
+
+# backend
 __pycache__/
 .pyc
+
+# graphics 
+graphics/build/
+graphics/**/.DS_Store
+graphics/.cache/
+graphics/.vscode/
+
+# imgui
+graphics/imgui.ini
+
+# trace
+graphics/*.trace

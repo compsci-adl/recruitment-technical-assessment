@@ -1,0 +1,8 @@
+[submodule "graphics/libs/glfw"]
+	path = graphics/libs/glfw
+	url = https://github.com/glfw/glfw.git
+	ignore = dirty
+[submodule "graphics/libs/imgui"]
+	path = graphics/libs/imgui
+	url = https://github.com/ocornut/imgui.git
+	ignore = dirty
