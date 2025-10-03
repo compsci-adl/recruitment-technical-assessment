@@ -1,6 +1,6 @@
 {
   "slugToTitle": [
-    { "input": "meet-and-greet-s1-2025", "expected": "Meet And Greet S1 2025" },
+    { "input": "meet-and-greet-s1-2025", "expected": "Meet and Greet S1 2025" },
     { "input": "uni-hackathon", "expected": "Uni Hackathon" },
     { "input": "cocktail-night-2024", "expected": "Cocktail Night 2024" }
   ],
