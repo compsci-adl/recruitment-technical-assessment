@@ -1,5 +1,5 @@
-> This task is relevant for **any project with a backend (minus DuckBot)**
-> (CS Club Website, MyTimetable, MyVote).
+> This task is relevant for **any project with a backend**
+> (CS Club Website, DuckBot, MyTimetable, MyVote).
 
 # CS Club Open Source Team Recruitment Technical Assessment: Backend
 > **YOU DON'T NEED TO COMPLETE ALL PARTS.** 
